@@ -62,6 +62,62 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-第八次周报" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/09/07/第八次周报/" class="article-date">
+  <time datetime="2019-09-07T02:55:29.000Z" itemprop="datePublished">2019-09-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/09/07/第八次周报/">第八次周报</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>暑期学习方向：HTML<br>学习途径：<a href="https://www.runoob.com/" target="_blank" rel="noopener">https://www.runoob.com/</a><br>学习心得：<br>1.最好是在开头加上&lt;!DOCTYPE&gt; 声明，因为很多HTML文件都要这个，分不清楚到底加不加，最好都加。</p>
+<p>2.<em>.html 文件跟 </em>.jpg 文件(f盘)在不同目录下：<br><img src="file:///f:/*.jpg" width="300" height="120"><br>   图片 <em>.jpg 在 image 文件夹中，</em>.html 跟 image 在同一目录下：<br>&lt;img src=”image/<em>.jpg/“width=”300” height=”120”/&gt;<br>   图片 </em>.jpg 在 image 文件夹中，<em>.html 在 connage 文件夹中，image 跟 connage 在同一目录下：<br>&lt;img src=”../image/</em>.jpg/“width=”300” height=”120”/&gt;<br>   相同目录下<br><img src="*.jpg" width="300" height="120"><br>  如果图片来源于网络，那么写绝对路径：<br><img src="http://static.runoob.com/images/runoob-logo.png" width="300" height="120"></p>
+<p>3.class是用.标识，id是用#标识，id应该是页面的唯一标识，所以一个页面元素id不要重复，class就无所谓。</p>
+<p>4.tr 是行数，td 是单元格数,布局使用<div> 元素</div></p>
+<p>学习方向：css<br>学习途径：<a href="https://www.runoob.com/" target="_blank" rel="noopener">https://www.runoob.com/</a><br>学习心得：<br>1.优先级顺序： 通用选择器（*）&lt;元素选择器&lt;类选择器&lt;属性选择器&lt;伪类&lt;ID选择器&lt;内联样式</p>
+<p>2.letter-spacing 这个样式使用在英文单词时，是设置字母与字母之间的间距。如果想设置英文单词之间的间距，可以使用 word-spacing 来实现</p>
+<p>3.这四个链接状态是：<br>  a:link - 正常，未访问过的链接<br>  a:visited - 用户已访问过的链接<br>  a:hover - 当用户鼠标放在链接上时<br>  a:active - 链接被点击的那一刻<br>  a:hover 必须跟在 a:link 和 a:visited后面<br>  a:active 必须跟在 a:hover后面</p>
+<p>4.ul用于无序表，ol用于有序表</p>
+<p>5.盒子模型<br>  Margin(外边距) - 清除边框外的区域，外边距是透明的。<br>  Border(边框) - 围绕在内边距和内容外的边框。<br>  Padding(内边距) - 清除内容周围的区域，内边距是透明的。<br>  Content(内容) - 盒子的内容，显示文本和图像。</p>
+<p>6.隐藏一个元素可以通过把display属性设置为”none”，或把visibility属性设置为”hidden”。hidden隐藏了但任会占用内存。</p>
+<p>7.<br> 块级元素主要有：<br> address , blockquote , center , dir , div , dl , fieldset , form , h1 , h2 , h3 , h4 , h5 , h6 , hr , isindex , menu , noframes , noscript , ol , p , pre , table , ul , li<br> 内联元素主要有：（指放在&lt;&gt;的）<br>a , abbr , acronym , b , bdo , big , br , cite , code , dfn , em , font , i , img , input , kbd , label , q , s , samp , select , small , span , strike , strong , sub , sup ,textarea , tt , u , var</p>
+<p>8.位置<br>  absolute这个是绝对定位，指他在浏览器那个位置就在那个位置，它的大小不会随窗口变化而变化。<br>  relative是相对定位，这个时候不能用top，left在定位。应该用margin-left这种定位。</p>
+<p>学习方向：js<br>学习途径：<a href="https://www.runoob.com/" target="_blank" rel="noopener">https://www.runoob.com/</a><br>学习体会：<br>1.ocument.getElementById(“demo”).innerHTML = “”常用函数。</p>
+<p>2.使用关键字 var 来定义变量， 有的时候使用 var 关键字重新声明变量可能会带来问题，而用let 命令定义，则只会在含有let命令的代码块 {} 内有效。不能使用 let 关键字来重置 var 关键字声明的变量。</p>
+<p>3.typeof 用以获取一个变量或者表达式的类型，typeof 一般只能返回如下几个结果：number,boolean,string,function（函数）,object（NULL,数组，对象）,undefined</p>
+<p>4.在方法中，this 表示该方法所属的对象。<br>   如果单独使用，this 表示全局对象。<br>   在函数中，this 表示全局对象。<br>   在函数中，在严格模式下，this 是未定义的(undefined)。<br>   在事件中，this 表示接收事件的元素。</p>
+<p>5.JSON 语法规则：数据为 键/值 对，数据由逗号分隔，大括号保存对象，方括号保存数组。json的对象要用双引号引起来。</p>
+<p>学习方向：HTML5<br>学习途径：<a href="https://www.runoob.com/" target="_blank" rel="noopener">https://www.runoob.com/</a><br>学习心得：<br>1.绘图是从左上角起，右下角结束。</p>
+<p>2.部分功能元素：<br>  hgroup元素：用于对整个页面或页面中一个内容区块的标题进行组合。<br>  video元素：定义视频，比如电影片段或其他视频流，<video src="movie.ogg" controls="controls">video元素</video><br>  audio元素：定义音频，比如音乐或其他音频流，<audio src="someaudio.wav">audio元素</audio><br>  embed元素：用来插入各种多媒体，格式可以是：Midi、Wav、AIFF、AU、MP3等。<embed src="horse.wav"><br>  canvas元素：表示图形，如图表和其他图像。<canvas id="myCanvas" width="200" height="200"></canvas><br>  ruby元素：表示ruby注释（中文注音或字符）<br>学习方向：css3<br>学习途径：<a href="https://www.runoob.com/" target="_blank" rel="noopener">https://www.runoob.com/</a><br>学习心得：各种好看的效果</p>
+<p>学习方向：Vue（刚入门10）<br><a href="https://www.bilibili.com/video/av27969216?from=search&amp;seid=3641325851690005944" target="_blank" rel="noopener">https://www.bilibili.com/video/av27969216?from=search&amp;seid=3641325851690005944</a><br>学习心得：暂无</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/09/07/第八次周报/" data-id="ck0anyv960004ksvvn0424dyz" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-第七次周报" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/05/31/第七次周报/" class="article-date">
@@ -89,7 +145,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/31/第七次周报/" data-id="cjweecuas0002lgvv30824af3" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/31/第七次周报/" data-id="ck0anyv9f0006ksvv5oppuenq" class="article-share-link">Share</a>
       
       
     </footer>
@@ -126,7 +182,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/04/08/第六次周报/" data-id="cjweecub50006lgvv31sodrvg" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/04/08/第六次周报/" data-id="ck0anyv9k0007ksvv8slo3n0r" class="article-share-link">Share</a>
       
       
     </footer>
@@ -163,7 +219,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/23/第五次周报/" data-id="cjweecub20005lgvvl4e3c8iz" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/23/第五次周报/" data-id="ck0anyv8w0002ksvvv9xkej37" class="article-share-link">Share</a>
       
       
     </footer>
@@ -200,7 +256,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/08/第四次周报/" data-id="cjweecub80007lgvv2212ghet" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/08/第四次周报/" data-id="ck0anyvai0008ksvvepdkx1cm" class="article-share-link">Share</a>
       
       
     </footer>
@@ -237,7 +293,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/04/第三次周报/" data-id="cjweecuaw0003lgvv62m0ob7m" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/01/04/第三次周报/" data-id="ck0anyv910003ksvvv4pnbsmm" class="article-share-link">Share</a>
       
       
     </footer>
@@ -277,7 +333,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/15/第二次周报/" data-id="cjweecuaz0004lgvvp8oognxr" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/15/第二次周报/" data-id="ck0anyv9a0005ksvvie4mq68r" class="article-share-link">Share</a>
       
       
     </footer>
@@ -314,7 +370,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/01/第一次周报/" data-id="cjweecuam0001lgvvgtxu29hr" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/01/第一次周报/" data-id="ck0anyv7k0000ksvv52h0yxjp" class="article-share-link">Share</a>
       
       
     </footer>
@@ -359,7 +415,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/11/30/hello-world/" data-id="cjweecua80000lgvvq9wz7boo" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/11/30/hello-world/" data-id="ck0anyv7x0001ksvvzgck82lu" class="article-share-link">Share</a>
       
       
     </footer>
@@ -387,7 +443,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">September 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a></li></ul>
     </div>
   </div>
 
@@ -398,6 +454,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/09/07/第八次周报/">第八次周报</a>
+          </li>
         
           <li>
             <a href="/2019/05/31/第七次周报/">第七次周报</a>
@@ -413,10 +473,6 @@
         
           <li>
             <a href="/2019/03/08/第四次周报/">第四次周报</a>
-          </li>
-        
-          <li>
-            <a href="/2019/01/04/第三次周报/">第三次周报</a>
           </li>
         
       </ul>
